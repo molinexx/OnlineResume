@@ -8,10 +8,13 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
-<!-- css doc! important to put it below botstrap to overwrite some details -->
-<link rel="stylesheet" href="CSS/styles.css">
-<!-- Font Awasome -->
-<script src="https://kit.fontawesome.com/459bda2625.js" crossorigin="anonymous"></script>
+  <!-- css doc! important to put it below botstrap to overwrite some details -->
+  <link rel="stylesheet" href="CSS/styles.css">
+  <!-- Font Awasome -->
+  <script src="https://kit.fontawesome.com/459bda2625.js" crossorigin="anonymous"></script>
+  <!-- font link -->
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet"> -->
 </head>
 
 <body>
@@ -20,48 +23,130 @@
     <div class="background-image">
       <div class="container">
         <div class="topnav">
-          <a href="#About">About</a>
-          <a href="#Education">Education</a>
+          <a href="#About">AboutMe</a>
+          <a href="#Experiences">Experiences</a>
           <a href="#Skills">Skills</a>
           <a href="#Contact">Contact</a>
         </div>
 
       </div>
       <div class="container mainQuotation">
-        <h6 >“The important thing is not to stop questioning. Curiosity has its own reason for existing.”  - Albert Einstein</h6>
+        <h6>“The important thing is not to stop questioning. Curiosity has its own reason for existing.” - Albert Einstein</h6>
       </div>
     </div>
 
   </div>
-<!-- about container -->
-<div id="About" class="container-flush">
+  <!-- about container -->
+  <div id="About" class="container-fluid about-me">
+    <div class="personal">
+      <div class="title ">
+        <h5 class="boldtext">About Me</h5>
+      </div>
+      <div class="row">
+        <img src="" />
+      </div>
 
-</div>
-<!-- education container -->
-<div id="Education" class="container-flush">
-
-</div>
-
-<!-- skills container -->
-<div id="Skills" class="container-flush">
-
-</div>
-
-<!-- contact container -->
-<div id="Contact" class="container-fluid contact_info">
-  <div class="row contact_row">
-    <div class="col-sm-4"> Connect with me on <br />
-      <a href="https://www.linkedin.com/in/marylawozniak"><i class="contact_icon fab fa-linkedin fa-2x"></i></a>
-    </div>
-    <div class="col-sm-4"> Check my work on <br />
-      <a href="https://github.com/molinexx/Portfolio"><i class="contact_icon fab fa-github-square fa-2x"></i></a>
-    </div>
-    <div class="col-sm-4 "> Check my website  <br />
-      <a href="https://molinexx.github.io/my_hiking_website/"><i class="contact_icon fas fa-hiking fa-2x"></i></a>
     </div>
   </div>
-</div>
-</div>
+
+  <!-- education container -->
+  <div id="Experiences" class="container-fluid">
+    <div class="education ">
+      <div class="title ">
+        <h5 class="boldtext">Education</h5>
+      </div>
+      <div class="row">
+        <!-- first row udemy -->
+        <div class="col-md-4 col-sm-12">
+          <div class="text">
+            <h6 class="boldtext">
+              Udemy.com
+            </h6>
+            <h6>online</h6>
+          </div>
+        </div>
+        <div class="col-md-8 col-sm-12">
+          <div class="text">
+            <p class="boldtext"> “Complete 2020 Web Development Bootcamp at Udemy.com”
+            <p>
+              HTML, CSS, JS, Bootstrap, JQuery, NodeJS, Git, etc..
+            </p>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- second row baruch -->
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <div class="text">
+            <h6 class="boldtext">
+              Baruch College, <br />The City University of New Yor
+            </h6>
+            <h6>New York, NY</h6>
+          </div>
+        </div>
+        <div class="col-md-8 col-sm-12">
+          <div class="text">
+            <p class="boldtext">
+              Bachelor - Computer Information Systems, Data Analytics, <br />GPA 3.84, Major GPA 3.96
+            </p>
+            <p>
+              Programming and Computational Thinking, Programming for Analytics, Object-Oriented Programming,<br />
+              Database Management Systems, Data Warehousing, Data Visualization,<br />
+              Data Mining for Business Analytics, Quantitative Decision Making for Business
+            </p>
+          </div>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <div class="text">
+            <h6 class="boldtext">
+              University of Law and Public Administration
+            </h6>
+            <h6>
+              Rzeszow, Poland
+            </h6>
+          </div>
+        </div>
+        <div class="col-md-8 col-sm-12">
+          <div class="text">
+            <p class="boldtext">
+              Master's degree - Business Administration and Management
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- skills container -->
+  <div id="Skills" class="container-fluid">
+
+  </div>
+
+  <!-- contact container -->
+  <div id="Contact" class="container-fluid contact_info">
+    <div class="row contact_row">
+      <div class="col-sm-4">
+        <div class="contact-padding">  Connect with me on <br />
+          <a href="https://www.linkedin.com/in/marylawozniak"><i class="contact_icon fab fa-linkedin fa-2x"></i></a>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="contact-padding">Check my work on <br />
+          <a href="https://github.com/molinexx/Portfolio"><i class="contact_icon fab fa-github-square fa-2x"></i></a>
+        </div>
+      </div>
+      <div class="col-sm-4 ">
+        <div class="contact-padding">Check my website <br />
+          <a href="https://molinexx.github.io/my_hiking_website/"><i class="contact_icon fas fa-hiking fa-2x"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
 </body>
 
 </html>
