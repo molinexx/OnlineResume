@@ -1,41 +1,22 @@
 @media(max-width: 576px){
 .col-md-8{padding-top: 0;}
 }
-/* @media(max-width:576px){
-  .mainQuotation{
-    color: white;
-  } */
-/* } */
+
 body{
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
   /* font-family: 'Open Sans', sans-serif; */
 }
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-  /* display: inline-block;  */
-}
-.container {
+
+/* .container {
   position: absolute;
   margin: 20px;
   width: auto;
-}
+} */
 .container-fluid{
   padding-left: 0;
   padding-right: 0;
 }
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 15px;
-}
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
+
 .background-image {
   background: url('../Pictures/newyork.jpg');
   min-height: 380px;
@@ -50,13 +31,18 @@ body{
 }
 
 .mainQuotation{
-    padding: 70px 10px 10px 10px;
+    padding: 30px 10px 10px 10px;
 }
 /* about me container */
 .about-me{
   background-color: #f8f1f1;
+  padding: 40px;
+  font-size: 14px;
 }
-
+.my-picture{
+  text-align: center;
+  padding: 10px 0 20px 0;
+}
 /* middle container */
 .education{
   padding: 40px ;
