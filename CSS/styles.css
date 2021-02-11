@@ -46,7 +46,7 @@ body{
 /* middle container; education and careers */
 .education {
   padding: 40px ;
-  background-color: #f7f6e7;
+  background-color: #f4f4f4;
 }
 .careers{
   padding: 40px;
@@ -62,6 +62,14 @@ body{
 }
 .boldtext{
   font-weight: bold;
+}
+.paragraf{
+  padding-top: 15px;
+}
+
+/* skills container */
+.skills{
+  background-color: #f4f4f4;
 }
 
 /* contact container */
