@@ -43,10 +43,14 @@ body{
   text-align: center;
   padding: 10px 0 20px 0;
 }
-/* middle container */
-.education{
+/* middle container; education and careers */
+.education {
   padding: 40px ;
   background-color: #f7f6e7;
+}
+.careers{
+  padding: 40px;
+  background-color: #f8f1f1;
 }
 .text{
   padding: 20px;
