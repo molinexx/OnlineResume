@@ -44,6 +44,9 @@ body{
 .lightColor {
   background-color: #f4f4f4;
 }
+.personalPic{
+  width: 100%;
+}
 
 /* about me container */
 .background-image {
@@ -100,8 +103,16 @@ body{
 @media(max-width: 576px){
 body {text-align: center;}
 }
-@media (max-width: 576px){
+
+/* on a tablet or smaller */
+@media (max-width: 992px){
   .containerBorder  {
     padding: 0 50px;
+  }
+}
+
+@media (max-width: 992px){
+  .personalPic{
+    width: 70%
   }
 }
