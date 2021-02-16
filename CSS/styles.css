@@ -55,6 +55,12 @@ body{
 li:hover {
   color: #00587a; font-size: 130%; font-weight: 600;
 }
+a{
+  color: #00587a;
+}
+a:hover{
+  font-size: 115%; text-decoration: none;
+}
 /* about me container */
 .background-image {
   background: url('../Pictures/newyork.jpg');
